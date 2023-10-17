@@ -8,3 +8,5 @@ if mes == 6 and 31>= dia >=21 or mes == 7 or mes == 8 or mes == 9 and dia < 23:
     print(f'Na data {dia}/{mes}/2023 estaremos na estação "Inverno"')
 if mes == 9 and 31>= dia >=23 or mes == 10 or mes == 11 or mes == 12 and dia <22:
     print(f'Na data {dia}/{mes}/2023 estaremos na estação "Primavera"')
+if mes > 12 or dia > 31:
+    print('ERRO ---  Data irregular!')
